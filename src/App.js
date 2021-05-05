@@ -1,4 +1,4 @@
-import HelloCGU from './cgu_hello'
+/*import HelloCGU from './cgu_hello'
 import MultiButton from './cgu_multiButton'
 import BasicTextFields from './login_button'
 import Link from '@material-ui/core/Link';
@@ -6,11 +6,13 @@ import {Grid, TextField} from "@material-ui/core"
 import Lock from "./lock"
 import Button from '@material-ui/core/Button';
 import './App.css';
-
+*/
+import MultiButton from './changeText'
+import HelloCGU from './cgu_hello'
 
 function App() {
   return (
-    <div className="App">
+    /*<div className="App">
         <Grid container style={{minHeight: '100vh'}}>
           <Grid item xs={1} sm={6}>
             <img 
@@ -40,7 +42,11 @@ function App() {
             </div>
       
           </Grid>
-        </Grid>
+        </Grid>*/
+      
+    <div className="App">
+      {HelloCGU()}
+      { MultiButton(10) }
     </div>
 
   );
