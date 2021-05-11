@@ -5,8 +5,8 @@ import Link from '@material-ui/core/Link';
 import {Grid, TextField} from "@material-ui/core"
 import Lock from "./lock"
 import Button from '@material-ui/core/Button';
-import './App.css';
-*/
+import './App.css';*/
+
 import MultiButton from './changeText'
 import HelloCGU from './cgu_hello'
 
@@ -46,9 +46,8 @@ function App() {
       
     <div className="App">
       {HelloCGU()}
-      { MultiButton(10) }
+      {MultiButton(10)}
     </div>
-
   );
 }
 
