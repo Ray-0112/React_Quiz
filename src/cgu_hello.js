@@ -1,5 +1,7 @@
-const styleArgument = { fontSize: '50px', color: 'black',marginTop:'800'};
-const HelloCGU=()=>{
- return <h1 style = { styleArgument } > Hello CGU </h1>;
-}
-export default HelloCGU;
+import React from 'react'
+class ToDoHeader extends React.Component {
+    render() {
+      return <h1>Todo list</h1>;
+    }
+  }
+export default ToDoHeader;
